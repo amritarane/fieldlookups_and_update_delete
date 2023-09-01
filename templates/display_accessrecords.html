@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>display_accessrecords</title>
+</head>
+<body>
+    <center>
+        <h1>display_accessrecords</h1>
+        <table>
+             <tr>
+                <th>pk</th>
+                <th>name</th>
+                <th>author</th>
+                <th>date</th>
+             </tr>
+             {% for ao in QSAO %}
+             <tr>
+                <td>{{}}</td>
+             </tr>
+             {% endfor %}
+        </table>
+    </center>
+</body>
+</html>
